@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+.wrapper {
+  width: 100%;
+  font-family: "Play", sans-serif;
+}
+
+.first-part-container {
+  width: 93.75%;
+  margin: 0 auto;
+}
+
+#logo-header {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+img[alt="ESTES"] {
+  width: 153px;
+  height: 32px;
+}
+
+.logo {
+  min-width: 25%;
+  min-height: 48px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.estel-phone {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: auto;
+}
+
+.text-end {
+  text-align: end;
+  color: #a0a747;
+}
+.bold {
+  font-weight: bold;
+}
+#title {
+  width: 85%;
+  margin: 85px auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+img[alt="west_garden"] {
+  width: 15%;
+}
+#title > h1 {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 100%; 
+  text-align: center;
+  letter-spacing: -3px;
+  padding-bottom:24px;
+}
+img[alt="jump-out-the-house"]{
+    width:100%;
+}
